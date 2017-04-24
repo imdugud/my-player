@@ -1,11 +1,11 @@
 {
   "name": "my-player",
   "version": "0.1.0",
-  "description": "Form builder",
+  "description": "player of mine",
   "main": "main.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/imdugud/my-player.git"
   },
   "license": "ISC",
   "devDependencies": {
