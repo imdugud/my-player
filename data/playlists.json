@@ -1,0 +1,12 @@
+[
+  {
+    "name": "playlist 1",
+    "songs" : [],
+    "token": "playlist-1"
+  },
+  {
+    "name": "playlist 2",
+    "songs" : [],
+    "token": "playlist-2"
+  }
+]

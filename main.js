@@ -1,4 +1,5 @@
 const {app, BrowserWindow} = require('electron')
+const ipcMain = require('electron').ipcMain
 const path = require('path')
 const url = require('url')
 
@@ -12,7 +13,7 @@ function createWindow () {
 
   // and load the index.html of the app.
   win.loadURL(url.format({
-    pathname: path.join(__dirname, '/app/views/index.ejs'),
+    pathname: path.join(__dirname, '/app/index.html'),
     protocol: 'file:',
     slashes: true
   }))
@@ -53,9 +54,3 @@ app.on('activate', () => {
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
-//require(__dirname + '/libs/logger')(function () {
-//    require(__dirname + '/libs/serviceloader');
-//    require(__dirname + '/libs/express')(
-//      require(__dirname + "/libs/router")
-//  });
-//});
