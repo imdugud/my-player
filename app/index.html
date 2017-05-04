@@ -3,24 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/variables.css" rel="stylesheet" type="text/css"/>
+    <link href="css/global.css" rel="stylesheet" type="text/css"/>
+    <link href="css/nav.css" rel="stylesheet" type="text/css"/>
     <link href="css/index.css" rel="stylesheet" type="text/css"/>
     <title>my-player</title>
 </head>
 <body>
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <input type="text" placeholder="Enter playlist name" id="playlistNameInput">
-            </div>
-            <div class="col-md-12" id="playlistList">
-                <ul class="playlist-group list-group ">
+<nav class="nav js-nav is-shown">
+    <header class="nav-header text-center">
+        <h5>My-Player</h5>
+        <input type="text" placeholder="Enter playlist name" id="playlistNameInput">
+    </header>
 
-                </ul>
-            </div>
-        </div>
+    <div class="nav-item u-category-windows playlist-item" id="<>">
+        <button type="button" id="button-playlist-< >" data-section="windows" class="nav-button">Create and manage <em>windows</em></button>
+        <button type="button" id="button-playlist-<>" data-section="crash-hang" class="nav-button">Handling window <em>crashes and hangs</em></button>
     </div>
-</section>
+
+    <footer class="nav-footer">
+        <!--player buraya gelecek -->
+        <button type="button" id="button-about" data-modal="about" class="nav-footer-button">About</button>
+        <a class="nav-footer-logo" href="https://github.com" aria-label="Homepage">
+            <svg class="nav-footer-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/img/icons.svg#icon-love"></use></svg>
+        </a>
+    </footer>
+</nav>
+<main class="content">
+    <section id="playlist-detail-section">
+
+    </section>
+</main>
+
 <script src="js/utility.js"></script>
 <script src="js/index.js"></script>
 </body>
