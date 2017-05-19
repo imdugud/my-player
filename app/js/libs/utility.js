@@ -47,5 +47,3 @@ Document.prototype.getJSON = function (params) {
         complete: params.complete
     });
 };
-
-module.exports = {};

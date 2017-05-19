@@ -44,9 +44,6 @@
 
 
 
-.nav-item {
-  padding: .5em 0;
-}
 
 .nav-icon {
   width: 16px;
@@ -67,7 +64,7 @@
   display: block;
   width: 100%;
   padding: .3rem;
-  padding-left: calc(2rem + 16px + .5rem); /* padding + icon + magic */
+  padding-left: calc(.5rem + 16px + .5rem); /* padding + icon + magic */
   line-height: 2;
   text-align: left;
   font: inherit;
