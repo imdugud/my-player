@@ -12,4 +12,4 @@ requirejs.config({
 });
 
 // Start the main app logic.
-requirejs(['utility', 'index']);
+requirejs(['utility', 'nav', 'index']);

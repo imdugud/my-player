@@ -9,3 +9,4 @@ Windows 7 : `npm install`  `node_modules\.bin\electron .`
 * add song  
 * play playlist  
 * shuffle playlist  
+* https://gist.github.com/jonnyreeves/2474026 

@@ -32,8 +32,8 @@ function listPlaylists(parent, itemName) {
         }
     });
 }
+
 /**
- *
  * @param item {Element} playlist-item
  */
 function prepareItem(item) {
@@ -41,6 +41,7 @@ function prepareItem(item) {
 
     });
 }
+
 /**
  * @description creates html element for each playlist
  * @param name

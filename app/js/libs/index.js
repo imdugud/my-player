@@ -6,8 +6,9 @@ define(function (require) {
 
   // Load library/vendor modules using
   // full IDs, like:
-  var playlist = require('playlist');
+  var listPlaylists = require('list');
 
-
-  playlist('playlist-group', 'playlist-item');
+  listPlaylists('playlist-group', 'playlist-item');
+  
+  
 });
